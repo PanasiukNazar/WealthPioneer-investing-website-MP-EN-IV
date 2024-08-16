@@ -435,6 +435,8 @@
 
 .service .service-item .service-img img {
     transition: 0.5s;
+    height: 300px;
+    object-fit: cover;
 }
 
 .service .service-item:hover .service-img img {
@@ -739,6 +741,7 @@
     border: 5px solid var(--bs-light);
     border-style: double;
     background: var(--bs-white);
+    object-fit: cover;
 }
 
 .testimonial .testimonial-item .testimonial-text {
